@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberProject" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="runner.TestRunner" time="4.617">
+    <testsuite name="Feature: Test salesForce Smoke scenario" time="4.617">
+      <testsuite name="Scenario: Test login with valid credentials" time="4.617">
+        <testcase name="Given Launch the Firefox and open the Salesforce Application" classname="Scenario: Test login with valid credentials" time="3.568"/>
+        <testcase name="When Enter the valid user name and password" classname="Scenario: Test login with valid credentials" time="1.048"/>
+        <testcase name="Then User should be able to login sucessfully" classname="Scenario: Test login with valid credentials" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

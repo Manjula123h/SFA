@@ -1,0 +1,32 @@
+package stepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SmokeTest {
+
+
+WebDriver driver;
+
+@Given("^Launch the Firefox and open the Salesforce Application$")
+public void Launch_the_Firefox_and_open_the_Salesforce_Application() throws Throwable {
+   
+    
+}
+
+@When("^Enter the valid user name and password$")
+public void Enter_the_valid_user_name_and_password() throws Throwable {
+   
+    
+}
+
+@Then("^User should be able to login sucessfully$")
+public void User_should_be_able_to_login_sucessfully() throws Throwable {
+   
+ 
+}
+
+
+
+}

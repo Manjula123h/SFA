@@ -1,0 +1,17 @@
+package com.salesforce.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class SampleTest {
+
+
+	public void print()
+	{
+		System.out.println("Hello");
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://www.google.co.in/");
+	}
+	}
+

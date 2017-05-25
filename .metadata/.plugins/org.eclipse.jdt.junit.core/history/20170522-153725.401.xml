@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="CucumberProject" tests="3" started="3" failures="0" errors="2" ignored="2">
+  <testsuite name="runner.TestRunner" time="0.022">
+    <testsuite name="Feature: Test salesForce Smoke scenario" time="0.022">
+      <testsuite name="Scenario: Test login with valid credentials" time="0.011" incomplete="true">
+        <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)&#13;
+	at stepDefinition.SmokeTest.Launch_the_Firefox_and_open_the_Salesforce_Application(SmokeTest.java:22)&#13;
+	at ✽.Given Launch the Firefox and open the Salesforce Application(ScenariosSalesforce.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given Launch the Firefox and open the Salesforce Application" classname="Scenario: Test login with valid credentials" time="0.01">
+          <error>java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html&#13;
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)&#13;
+	at stepDefinition.SmokeTest.Launch_the_Firefox_and_open_the_Salesforce_Application(SmokeTest.java:22)&#13;
+	at ✽.Given Launch the Firefox and open the Salesforce Application(ScenariosSalesforce.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="When Enter the valid user name and password" classname="Scenario: Test login with valid credentials" time="0.001" ignored="true"/>
+        <testcase name="Then User should be able to login sucessfully" classname="Scenario: Test login with valid credentials" time="0.004" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
